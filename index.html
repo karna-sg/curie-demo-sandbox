@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snake</title>
+    <link rel="stylesheet" href="./snake.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hud">
+        <h1 class="title">Snake</h1>
+        <div class="scores">
+          <span class="score">Score: <strong id="score">0</strong></span>
+          <span class="score">High score: <strong id="highscore">0</strong></span>
+        </div>
+        <p class="hint">Arrows / WASD to turn · Space to pause · R to restart</p>
+      </header>
+      <canvas
+        id="board"
+        width="1200"
+        height="1200"
+        tabindex="0"
+        aria-label="Snake game board, 20 by 20 grid. Use arrow keys or WASD to move."
+      ></canvas>
+    </main>
+    <script src="./snake.js"></script>
+  </body>
+</html>
