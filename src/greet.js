@@ -1,6 +1,8 @@
-// Intentionally buggy: returns the wrong greeting.
-// A "fix greet() to return correct greeting" ticket is a good demo candidate.
+import { isValidName, normalizeName } from "./validators.js";
 
 export function greet(name) {
-  return `Goodbye, ${name}!`;
+  if (!isValidName(name)) {
+    throw new TypeError("greet: invalid name");
+  }
+  return `Hello, ${normalizeName(name)}!`;
 }
