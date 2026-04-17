@@ -1,0 +1,14 @@
+{
+  "name": "curie-demo-sandbox",
+  "version": "0.0.1",
+  "description": "Sandbox repo for Curiescious IMPLEMENT demo.",
+  "type": "module",
+  "main": "src/greet.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "echo 'no linter configured'",
+    "build": "echo 'no build step'"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
