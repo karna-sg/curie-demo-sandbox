@@ -7,6 +7,7 @@
   "scripts": {
     "test": "node --test",
     "lint": "echo 'no linter configured'",
+    "lint:fix": "echo 'no linter configured'",
     "build": "echo 'no build step'"
   },
   "license": "UNLICENSED",
